@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const PORT = 3000;
 
-app.get("/profile", (req, res) => {
+app.get("/", (req, res) => {
   res.status(200).send({
     slackUsername: "iPrevail",
     backend: true,
